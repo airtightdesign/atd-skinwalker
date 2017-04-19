@@ -1,0 +1,15 @@
+# sample .hgignore file
+syntax:glob  # enables you to use glob syntax
+
+cache        # cache directory
+
+# front-end ignores
+*node_modules*
+*.sass-cache*
+
+# auto-generated crap files
+*~             # ignore emacs backup files
+.idea          # php storm project files
+.DS_Store      # mac crap
+*.orig         # hg created merge file
+atd-skinwalker/vendor/*
