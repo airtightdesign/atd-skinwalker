@@ -1,7 +1,0 @@
-{
-    "require": {
-        "intervention/image": "^2.3",
-        "intervention/imagecache": "^2.3",
-	"illuminate/http": "5.4.9"
-    }
-}
